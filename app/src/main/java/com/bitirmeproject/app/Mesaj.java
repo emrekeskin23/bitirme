@@ -1,4 +1,4 @@
-package com.mertcanduldul.app;
+package com.bitirmeproject.app;
 
 public class Mesaj {
     private String id;

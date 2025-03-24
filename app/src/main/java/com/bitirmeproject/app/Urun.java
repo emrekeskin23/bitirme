@@ -1,17 +1,17 @@
-package com.mertcanduldul.app;
+package com.bitirmeproject.app;
 
 public class Urun {
     private String urun_id;
     private String urun_adi;
     private String urun_fotograf;
     private String urun_aciklama;
-    private int urun_fiyat;
+    private long urun_fiyat;
     private String urun_sahibi_id;
     private String urun_lokasyon;
     private String urun_yuklenme_tarih;
 
 
-    public Urun(String urun_id, String urun_adi, String urun_fotograf, String urun_aciklama, int urun_fiyat, String urun_sahibi_id, String urun_lokasyon, String urun_yuklenme_tarih) {
+    public Urun(String urun_id, String urun_adi, String urun_fotograf, String urun_aciklama, long urun_fiyat, String urun_sahibi_id, String urun_lokasyon, String urun_yuklenme_tarih) {
         this.urun_id = urun_id;
         this.urun_adi = urun_adi;
         this.urun_fotograf = urun_fotograf;
@@ -81,11 +81,11 @@ public class Urun {
         this.urun_aciklama = urun_aciklama;
     }
 
-    public int getUrun_fiyat() {
+    public long getUrun_fiyat() {
         return urun_fiyat;
     }
 
-    public void setUrun_fiyat(int urun_fiyat) {
+    public void setUrun_fiyat(long urun_fiyat) {
         this.urun_fiyat = urun_fiyat;
     }
 }

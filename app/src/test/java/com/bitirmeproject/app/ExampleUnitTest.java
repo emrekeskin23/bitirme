@@ -1,4 +1,4 @@
-package com.mertcanduldul.app;
+package com.bitirmeproject.app;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.mertcanduldul.app;
+package com.bitirmeproject.app;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

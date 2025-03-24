@@ -1,4 +1,4 @@
-package com.mertcanduldul.app;
+package com.bitirmeproject.app;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -13,12 +13,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bitirmeproject.app.R;
 import com.squareup.picasso.Picasso;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageHolder> {
     List<Mesaj> mesajList;

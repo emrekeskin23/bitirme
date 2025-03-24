@@ -29,7 +29,7 @@
             android:id="@+id/buttonProfileAddProduct"
             android:layout_width="133dp"
             android:layout_height="wrap_content"
-            android:text="Eşyamı Sat"
+            android:text="Eşya Al"
             android:translationX="250dp"
             android:translationY="10dp" />
 

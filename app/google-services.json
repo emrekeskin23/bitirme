@@ -1,37 +1,27 @@
 {
   "project_info": {
-    "project_number": "642107297866",
-    "firebase_url": "https://trademarketapp-f81f7-default-rtdb.europe-west1.firebasedatabase.app",
-    "project_id": "trademarketapp-f81f7",
-    "storage_bucket": "trademarketapp-f81f7.appspot.com"
+    "project_number": "153749203366",
+    "firebase_url": "https://bitirime-74c66-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "bitirime-74c66",
+    "storage_bucket": "bitirime-74c66.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:642107297866:android:e955c4092f2d34093296b3",
+        "mobilesdk_app_id": "1:153749203366:android:2f5d16fe19eb7787768767",
         "android_client_info": {
-          "package_name": "com.mertcanduldul.app"
+          "package_name": "com.bitirmeproject.app"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "642107297866-2bpbid9hvtabo5n5tgk5p5gi7gfs60dh.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyACm4ZTtQ2XVLBJucUrtVfqen8TPKJI_dU"
+          "current_key": "AIzaSyBa-d7fMarZIGFSwENzVkrqrfEEIMsileg"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "642107297866-2bpbid9hvtabo5n5tgk5p5gi7gfs60dh.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

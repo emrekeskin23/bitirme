@@ -1,17 +1,13 @@
-package com.mertcanduldul.app;
+package com.bitirmeproject.app;
 
-import android.media.TimedText;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.TimePicker;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -20,15 +16,13 @@ import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.chip.Chip;
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.bitirmeproject.app.R;
 import com.squareup.picasso.Picasso;
-
-import java.sql.Time;
 
 public class DetailActivity extends Fragment {
     private TextView urun_adi;
@@ -82,6 +76,7 @@ public class DetailActivity extends Fragment {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
+                Toast.makeText(getContext(), "Veri hatası: " + databaseError.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
         buttonDetayBuy.setOnClickListener(new View.OnClickListener() {
@@ -137,7 +132,7 @@ public class DetailActivity extends Fragment {
 
                                                     @Override
                                                     public void onCancelled(@NonNull DatabaseError databaseError) {
-
+                                                        Toast.makeText(getContext(), "Mesaj verisi hatası: " + databaseError.getMessage(), Toast.LENGTH_SHORT).show();
                                                     }
                                                 });
                                             }
@@ -146,7 +141,7 @@ public class DetailActivity extends Fragment {
 
                                     @Override
                                     public void onCancelled(@NonNull DatabaseError databaseError) {
-
+                                        Toast.makeText(getContext(), "Kullanıcı verisi hatası: " + databaseError.getMessage(), Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             }
@@ -155,7 +150,7 @@ public class DetailActivity extends Fragment {
 
                     @Override
                     public void onCancelled(@NonNull DatabaseError databaseError) {
-
+                        Toast.makeText(getContext(), "Veri hatası: " + databaseError.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
             }
